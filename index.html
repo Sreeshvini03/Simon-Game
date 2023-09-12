@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start the game</h2>
+    <div class="button-container">
+        <div class="line-1">
+            <div class="btn red" type="button" id="red">1</div> <!--we set type to button so we could apply all the button prop.s to this and it becomes clickable-->
+            <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        <div class="line-2">
+            <div class="btn green" type="button" id="green">3</div> <!--we're giving id to access the color of btn ,we cant use class bcz there are 2-->
+            <div class="btn purple" type="button" id="purple">4</div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
